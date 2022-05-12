@@ -18,7 +18,7 @@
     1. High level test plan
     2. Low level test plan
     
-# 1 About the Wiper Control System
+# 1. About the Wiper Control System
 ## 1.1 Description
 * This project is an Wiper Control System. This system Displays Ignition ACC status, Wiper position status (in 3 Various HZ) . There is a led signaling which helps us to identify the features. For example if we press a button 1 time, Ignition Red LED will be turned ON. Then with next button press all the LED will be on which means the Wiper status of car is displayng, similarly for 2 and 3 clicks with alternate Wiper Speed Frequencies.
 ---
@@ -60,7 +60,7 @@
 
 ---
 
-# 2 REQUIREMENTS:
+# 2. REQUIREMENTS:
 ## 2.1 High Level Requirements
 | ID | High Level Requirements |
 | -------- | -------------- |
@@ -84,7 +84,7 @@
 
 ---
 
-# 3 Architecture
+# 3. Architecture
 * ## 3.1 Behavioural Diagram
     * ### 3.1.1 High Level Flow chart Behavioural Diagram
     ![WiperHighlvl](https://user-images.githubusercontent.com/101641134/168012966-69035b75-1404-4ecc-97a8-030d17feb174.png)
@@ -106,7 +106,7 @@
 
 ---
 
-# 4 Test Plan and Output
+# 4. Test Plan and Output
 # 4.1 HIGH LEVEL TEST PLAN
 
 | Test ID | Description | Input | Expected output | Actual Output | 
