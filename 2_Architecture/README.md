@@ -7,8 +7,10 @@
     ![WiperLowlvl](https://user-images.githubusercontent.com/101641134/168013148-699915b6-38d8-4183-9ac4-c8038c62b478.png)
     
     * ### 1.1.3 High Level UML Use Case Structural Diagram
-    ![WiperUmlusecaseHigh1](https://user-images.githubusercontent.com/101641134/168091830-0899dfe1-bda7-4e56-afee-def8dad4e3bd.png)
-
+    ![WiperUmlusecaseHigh1vl](https://user-images.githubusercontent.com/101641134/168091830-0899dfe1-bda7-4e56-afee-def8dad4e3bd.png)
+    
+    * ### 1.1.4 Low Level UML Use Case Structural Diagram
+    ![WiperUmlusecaseLow1vl](https://user-images.githubusercontent.com/101641134/168096188-ff16d617-c192-436f-bdec-4da398f33f46.png)
 
 # Best Methods Followed
 * Exact Mapping of code to avoid confusions
