@@ -19,23 +19,23 @@
 #include "driver.h"
 #include <stdio.h>
 
-static void ignition_on(void);
-static void led_cycle1(void);
-static void led_cycle2(void);
-static void led_cycle3(void);
-static void ignition_off(void);
+void ignition_on(void);
+void led_cycle1(void);
+void led_cycle2(void);
+void led_cycle3(void);
+void ignition_off(void);
 //int power(void);
 
-static void ignition_on(void){
+void ignition_on(void){
 	led_on(LED_RED);
 }
 
-static void ignition_off(void){
+void ignition_off(void){
 	led_off(LED_RED);
 }
 
 
-static void led_cycle1(void){
+void led_cycle1(void){
 	led_on(LED_BLUE);
 	delay_ms(350);          //1hz -> 350ms
 	led_off(LED_BLUE);
@@ -48,9 +48,16 @@ static void led_cycle1(void){
 	delay_ms(350);
 	led_off(LED_ORANGE);
 	delay_ms(350);
+	led_on(LED_GREEN);
+	delay_ms(350);
+	led_off(LED_GREEN);
+	delay_ms(350);
+	led_on(LED_BLUE);
+	delay_ms(350);          
+	led_off(LED_BLUE);
+	delay_ms(350);
 }
-
-static void led_cycle2(void){
+void led_cycle2(void){
 	led_on(LED_BLUE);
 	delay_ms(87.5);			//4hz -> 350/4 =87.5
 	led_off(LED_BLUE);
@@ -63,9 +70,17 @@ static void led_cycle2(void){
 	delay_ms(87.5);
 	led_off(LED_ORANGE);
 	delay_ms(87.5);
+	led_on(LED_GREEN);
+	delay_ms(87.5);
+	led_off(LED_GREEN);
+	delay_ms(87.5);
+	led_on(LED_BLUE);
+	delay_ms(87.5);			
+	led_off(LED_BLUE);
+	delay_ms(87.5);
 }
 
-static void led_cycle3(void){
+void led_cycle3(void){
 	led_on(LED_BLUE);
 	delay_ms(43.75);			//8hz -> 350/8 =43.75
 	led_off(LED_BLUE);
@@ -77,6 +92,14 @@ static void led_cycle3(void){
 	led_on(LED_ORANGE);
 	delay_ms(43.75);
 	led_off(LED_ORANGE);
+	delay_ms(43.75);
+	led_on(LED_GREEN);
+	delay_ms(43.75);
+	led_off(LED_GREEN);
+	delay_ms(43.75);
+	led_on(LED_BLUE);
+	delay_ms(43.75);			
+	led_off(LED_BLUE);
 	delay_ms(43.75);
 	
 }
