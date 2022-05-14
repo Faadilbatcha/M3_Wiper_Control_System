@@ -37,71 +37,70 @@ void ignition_off(void){
 
 void led_cycle1(void){
 	led_on(LED_BLUE);
-	delay_ms(350);          //1hz -> 350ms
+	delay_ms(1000);          //1hz -> 1000ms(1s)
 	led_off(LED_BLUE);
-	delay_ms(350);
+	delay_ms(1000);
 	led_on(LED_GREEN);
-	delay_ms(350);
+	delay_ms(1000);
 	led_off(LED_GREEN);
-	delay_ms(350);
+	delay_ms(1000);
 	led_on(LED_ORANGE);
-	delay_ms(350);
+	delay_ms(1000);
 	led_off(LED_ORANGE);
-	delay_ms(350);
+	delay_ms(1000);
 	led_on(LED_GREEN);
-	delay_ms(350);
+	delay_ms(1000);
 	led_off(LED_GREEN);
-	delay_ms(350);
+	delay_ms(1000);
 	led_on(LED_BLUE);
-	delay_ms(350);          
+	delay_ms(1000);          
 	led_off(LED_BLUE);
-	delay_ms(350);
+	delay_ms(1000);
 }
 void led_cycle2(void){
 	led_on(LED_BLUE);
-	delay_ms(87.5);			//4hz -> 350/4 =87.5
+	delay_ms(250);			//4hz -> 1000/4 =250ms
 	led_off(LED_BLUE);
-	delay_ms(87.5);
+	delay_ms(250);
 	led_on(LED_GREEN);
-	delay_ms(87.5);
+	delay_ms(250);
 	led_off(LED_GREEN);
-	delay_ms(87.5);
+	delay_ms(250);
 	led_on(LED_ORANGE);
-	delay_ms(87.5);
+	delay_ms(250);
 	led_off(LED_ORANGE);
-	delay_ms(87.5);
+	delay_ms(250);
 	led_on(LED_GREEN);
-	delay_ms(87.5);
+	delay_ms(250);
 	led_off(LED_GREEN);
-	delay_ms(87.5);
+	delay_ms(250);
 	led_on(LED_BLUE);
-	delay_ms(87.5);			
+	delay_ms(250);			
 	led_off(LED_BLUE);
-	delay_ms(87.5);
+	delay_ms(250);
 }
 
 void led_cycle3(void){
 	led_on(LED_BLUE);
-	delay_ms(43.75);			//8hz -> 350/8 =43.75
+	delay_ms(125);			//8hz -> 1000/8 =125ms
 	led_off(LED_BLUE);
-	delay_ms(43.75);
+	delay_ms(125);
 	led_on(LED_GREEN);
-	delay_ms(43.75);
+	delay_ms(125);
 	led_off(LED_GREEN);
-	delay_ms(43.75);
+	delay_ms(125);
 	led_on(LED_ORANGE);
-	delay_ms(43.75);
+	delay_ms(125);
 	led_off(LED_ORANGE);
-	delay_ms(43.75);
+	delay_ms(125);
 	led_on(LED_GREEN);
-	delay_ms(43.75);
+	delay_ms(125);
 	led_off(LED_GREEN);
-	delay_ms(43.75);
+	delay_ms(125);
 	led_on(LED_BLUE);
-	delay_ms(43.75);			
+	delay_ms(125);			
 	led_off(LED_BLUE);
-	delay_ms(43.75);
-	
+	delay_ms(125);
 }
 /*
 int power(void){
